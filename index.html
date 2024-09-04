@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolar para Real</title>
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Conversor" />
+    </header>
+    
+   <header>
+    <main>
+        <div class="container" id="quadra">
+            <div class="box"></div>
+            <label id="APIhtml2">VALOR DOLAR Usando JS</label> 
+        <section>
+            <img id="moeda" src="assets/money.png" />
+            <span class="cur">US$</span>
+            <input id="usd" type="text" />
+        </section>
+        <section>
+            <img id="moeda" src="assets/money.png" />
+            <span class="cur">R$</span>
+            <input id="brl" type="text" />
+        </section>
+             
+        
+    </div>
+    </main>
+    
+    
+    <main>
+        <div class="container" id="quadra">
+            <div class="box"></div>
+            
+            
+            <label id="APIhtml">VALOR DOLAR ATUAL usando API externa</label> 
+<form>
+    <header>
+        <img id="moeda2" src="assets/money.png" />
+    </header>
+    <input type="number" placeholder="Inserir Valor" id="amount" required autofocus /> <br/>
+    <select id="fromCurrency">
+        <option value="">DE</option>
+        <option value="BRL">BRL</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EURO</option>
+    </select><br/>
+    
+    <select id="toCurrency">
+        <option value="">PARA</option>
+        <option value="BRL">BRL</option>
+        <option value="USD">USD</option>
+        <option value="EUR">EURO</option>
+    </select><br/>
+    <button type="button" id="button" onclick="ConverNow()"> CONVERTA AGORA</button>
+    <h3 id="resultDisplay"></h3>
+</form>
+<script src="assets/script2.js"></script>
+             
+    </div>
+    </main>
+
+   </header>
+
+<script src="assets/script.js"></script>
+
+    <footer>
+        Feito por Lucas Cavalcante
+    </footer>
+</body>
+
+</html>
+

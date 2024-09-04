@@ -1,0 +1,10 @@
+/* ( document )  em JavaScript é uma parte fundamental 
+do DOM (Document Object Model). Ele representa a estrutura 
+de um documento HTML ou XML carregado no navegador e 
+permite que você acesse e manipule o conteúdo da página 
+de forma programática.  */ 
+
+/*querySelector em JavaScript é uma ferramenta poderosa para 
+selecionar elementos no DOM (Document Object Model) de uma página 
+web. Ele retorna o primeiro elemento que corresponde a um ou mais 
+seletores CSS especificados.*/ 

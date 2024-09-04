@@ -1,0 +1,160 @@
+:root {
+    --background: #4c694e;
+    --primary: #333333;
+    --foreground: #e7f4c9;
+    --secondary: #909090;
+    --secondary-light: #c8c8c8;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+header {
+    text-align: center;
+    margin: 5rem 2rem;
+}
+
+
+header img {
+    width: 500px;
+    height: 200px;
+    padding-inline-start: 2rem;
+}
+#moeda {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 4rem;
+    
+    
+}
+
+#quadra {
+    width: 100%;
+    height: auto;
+    background: #659165;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+#APIhtml {
+    color: #ffffff;
+    font-style:oblique;
+}
+#APIhtml2 {
+    color: #ffffff;
+    font-style:oblique;
+}
+#moeda2 {
+    width: 8rem;
+    height: 8rem;
+    margin-top: -4rem;
+}
+
+#amount {
+    background-color: #427545;
+    width: 18rem;
+    height: 4rem;
+    border: #d1dfd2;
+    border-radius: 5px;
+    font-size:x-large;
+    font-family: Georgia;
+    color: aliceblue;
+    text-align: center ;
+    text-decoration-color: #c8c8c8;
+    margin: 1rem;
+    margin-top: -6rem;
+}
+#fromCurrency {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: larger;
+    font-family: Georgia;
+    margin: 3px;
+    border-radius: 5px;
+}
+#toCurrency {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: larger;
+    font-family: Georgia;
+    margin: 3px;
+    border-radius: 5px;
+}
+#button {
+    background-color: #356346;
+    width: 23rem;
+    color: #ffffff;
+    font-size: larger;
+    font-family: Georgia;
+    margin: 3px;
+    border-radius: 5px; 
+}
+#resultDisplay {
+    color: aliceblue;
+    font-size: x-large;
+    margin: 2rem;
+}
+main {
+    margin: 5rem;
+}
+
+main section {
+    display:flex;
+    font-weight: bold;
+    background-color: var(--background);
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 79rem;
+    border-radius: 3rem;
+
+}
+
+
+main section span {
+    display: block;
+    margin-right: 2rem;
+    color: var(--secondary-light);
+    font-size: 5rem;
+    padding-top: 4rem;
+}
+img {
+    
+    height: 80px;
+    width: 80px;
+    text-align: auto;
+
+}
+
+
+main section input {
+        flex: 2;
+        min-width: 0;
+        background: var(--foreground);
+        color: var(--secondary);
+        font-size: 6rem;
+        font-style: oblique;
+        border: 4rem;
+        border-color: rgb(244, 251, 255);
+        outline-color: #05960c;
+        text-align-last: center;
+        text-shadow: #333333;
+        border-radius: 2rem;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--secondary);
+    padding-top: 2rem;
+}
